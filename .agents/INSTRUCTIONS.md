@@ -1,11 +1,10 @@
 # Agent Instructions: Unit Test Automation Workflow
 
-You MUST follow this exact, sequential workflow. Failure to strictly adhere to these steps will result in rejection of your work.
+You MUST follow this exact, sequential workflow. Failure to strictly adhere to these steps will result in rejection of your work. DO not make changes to the TestLoop git project.
 
 ## Step 1: Setup
-1. **Sync Codebase:** Execute `git pull origin main` (or the default repository branch which could be master) to ensure you are working with the latest code.
-2. **Create Branch if needed:** If you are currently on main or master create a new feature branch for all test additions. Make sure to build off previous test additions and branch if any. 
-   * Example: `git checkout -b test-additions-march-2026`
+1. **Ensure you are in the correct directory:** Directory should be defined in README.md
+2. **Ensure you are in the branch defined in readme for the work:** If you are currently not in the branch defined in the readme or one was not defined create a new feature branch for all test additions. Make sure to build off previous test additions and branch if any. 
 
 ## Step 2: Target Acquisition
 3. **Analyze Coverage:** Read the `README.md` at the root of the repository to find the link to the current `Cobertura.xml` report. Download and parse the report.
