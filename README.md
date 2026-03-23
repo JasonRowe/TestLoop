@@ -1,11 +1,23 @@
 # TestLoop
 
-Welcome to the TestLoop repository. This project focuses on automated unit testing generation.
+Welcome to the TestLoop repository. This project focuses on automated unit testing generation. Setup and use with your favorate coding agent and loop mechnisim.
 
 **Current Coverage Report:** 
 
-[Add file path to cobertura.xml]
+[path to your coverage report here]
+
+
+**Project Directory to Test and run Git Commands**
+
+[Put your project directory here]
+
+
+**Branch to use for test additions**
+
+[Put your branch name here]
+
 
 ## Additional Details
 
-[add additional details here such as how to run test validation tools like stryker]
+[Add additional project details here that would be useful about running tests or stryker]
+
