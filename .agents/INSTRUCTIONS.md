@@ -37,5 +37,4 @@ If you encounter an error, a test fails, the mutation score drops, the build bre
 
 1. **Abort:** Stop all current progress immediately.
 2. **Revert Changes:** Execute `git reset --hard` and `git clean -fd` to revert all local modifications.
-3. **Reset Branch:** Switch back to the branch you started from (`git checkout <branch-name>`) and delete your temporary test branch (`git branch -D <branch-name>`).
-4. **Terminate:** End your current execution loop gracefully and wait for the next timer or loop trigger to restart the process. Do NOT attempt to fix the failed test in the same cycle.
+3. **Terminate:** End your current execution loop gracefully and wait for the next timer or loop trigger to restart the process. Do NOT attempt to fix the failed test in the same cycle.
